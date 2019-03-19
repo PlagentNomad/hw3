@@ -1,0 +1,35 @@
+>> %3-3 Ö±·½Í¼Æ¥Åä
+>> cw1_resu = histeq(citywall1,imhist(citywall));
+>> imhist(cw1_resu);saveas(gcf,'cw1_resu.bmp');
+>> subplot(2,3,1);imshow(citywall);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('cw.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(citywall1,imhist(citywall)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(citywall1);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('cw1.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('cw1_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'city1_resu.bmp');
+>> cw2_resu = histeq(citywall2,imhist(citywall));
+>> imhist(cw2_resu);saveas(gcf,'cw2_resu.bmp');
+>> subplot(2,3,1);imshow(citywall);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('cw.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(citywall2,imhist(citywall)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(citywall2);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('cw2.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('cw2_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'city2_resu.bmp');
+
+>> el1_resu = histeq(elain1,imhist(elain));
+>> imhist(el1_resu);saveas(gcf,'el1_resu.bmp');
+>> subplot(2,3,1);imshow(elain);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('el.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(elain1,imhist(elain)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(elain1);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('el1.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('el1_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'el1_resu.bmp');
+>> el2_resu = histeq(elain2,imhist(elain));
+>> imhist(el2_resu);saveas(gcf,'el2_resu.bmp');
+>> subplot(2,3,1);imshow(elain);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('el.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(elain2,imhist(elain)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(elain2);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('el2.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('el2_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'el2_resu.bmp');
+>> el3_resu = histeq(elain3,imhist(elain));
+>> imhist(el3_resu);saveas(gcf,'el3_resu.bmp');
+>> subplot(2,3,1);imshow(elain);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('el.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(elain3,imhist(elain)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(elain3);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('el3.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('el3_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'el3_resu.bmp');
+>> 
+>> le1_resu = histeq(lena1,imhist(lena));
+>> imhist(le1_resu);saveas(gcf,'le1_resu.bmp');
+>> subplot(2,3,1);imshow(lena);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('le.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(lena1,imhist(lena)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(lena1);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('le1.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('le1_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'le1_resu.bmp');
+>> le2_resu = histeq(lena2,imhist(lena));
+>> imhist(le2_resu);saveas(gcf,'le2_resu.bmp');
+>> subplot(2,3,1);imshow(lena);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('le.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(lena2,imhist(lena)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(lena2);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('le2.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('le2_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'le2_resu.bmp');
+>> le4_resu = histeq(lena4,imhist(lena));
+>> imhist(le4_resu);saveas(gcf,'le4_resu.bmp');
+>> subplot(2,3,1);imshow(lena);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('le.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(lena4,imhist(lena)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(lena4);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('le4.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('le4_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'le4_resu.bmp');
+>> 
+>> wo1_resu = histeq(woman1,imhist(woman));
+>> imhist(wo1_resu);saveas(gcf,'wo1_resu.bmp');
+>> subplot(2,3,1);imshow(woman);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('wo.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(woman1,imhist(woman)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(woman1);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('wo1.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('wo1_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'wo1_resu.bmp');
+>> wo2_resu = histeq(woman2,imhist(woman));
+>> imhist(wo2_resu);saveas(gcf,'wo2_resu.bmp');
+>> subplot(2,3,1);imshow(woman);title('Æ¥ÅäÍ¼Ïñ');subplot(2,3,4);imshow(imread('wo.bmp'));title('Æ¥ÅäÍ¼ÏñÖ±·½Í¼');subplot(2,3,3);imshow(histeq(woman2,imhist(woman)));title('Æ¥Åä½á¹û');subplot(2,3,2);imshow(woman2);title('Ô´Í¼Ïñ');subplot(2,3,5);imshow(imread('wo2.bmp'));title('Ô´Í¼ÏñÖ±·½Í¼');subplot(2,3,6);imshow(imread('wo2_resu.bmp'));title('Æ¥Åä½á¹ûÖ±·½Í¼');saveas(gcf,'wo2_resu.bmp');
+>> 

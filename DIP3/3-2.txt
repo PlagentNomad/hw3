@@ -1,0 +1,30 @@
+>> %3-2 直方图均衡
+>> city_equa = histeq(citywall);
+>> subplot(1,2,1);imshow(citywall);title('源图像');subplot(1,2,2);imshow(city_equa);title('均衡后');saveas(gcf,'city_cont.bmp');
+>> city1_equa = histeq(citywall1);
+>> subplot(1,2,1);imshow(citywall1);title('源图像');subplot(1,2,2);imshow(city1_equa);title('均衡后');saveas(gcf,'city1_cont.bmp');
+>> city2_equa = histeq(citywall2);
+>> subplot(1,2,1);imshow(citywall2);title('源图像');subplot(1,2,2);imshow(city2_equa);title('均衡后');saveas(gcf,'city2_cont.bmp');
+>> elain_equa = histeq(elain);
+>> subplot(1,2,1);imshow(elain);title('源图像');subplot(1,2,2);imshow(elain_equa);title('均衡后');saveas(gcf,'elain_cont.bmp');
+>> elain1_equa = histeq(elain1);
+>> subplot(1,2,1);imshow(elain1);title('源图像');subplot(1,2,2);imshow(elain1_equa);title('均衡后');saveas(gcf,'elain1_cont.bmp');
+>> elain2_equa = histeq(elain2);
+>> subplot(1,2,1);imshow(elain2);title('源图像');subplot(1,2,2);imshow(elain2_equa);title('均衡后');saveas(gcf,'elain2_cont.bmp');
+>> elain3_equa = histeq(elain3);
+>> subplot(1,2,1);imshow(elain3);title('源图像');subplot(1,2,2);imshow(elain3_equa);title('均衡后');saveas(gcf,'elain3_cont.bmp');
+>> lena_equa = histeq(lena);
+>> subplot(1,2,1);imshow(lena);title('源图像');subplot(1,2,2);imshow(lena_equa);title('均衡后');saveas(gcf,'lena_cont.bmp');
+>> lena1_equa = histeq(lena1);
+>> subplot(1,2,1);imshow(lena1);title('源图像');subplot(1,2,2);imshow(lena1_equa);title('均衡后');saveas(gcf,'lena1_cont.bmp');
+>> lena2_equa = histeq(lena2);
+>> subplot(1,2,1);imshow(lena2);title('源图像');subplot(1,2,2);imshow(lena2_equa);title('均衡后');saveas(gcf,'lena2_cont.bmp');
+>> lena4_equa = histeq(lena4);
+>> subplot(1,2,1);imshow(lena4);title('源图像');subplot(1,2,2);imshow(lena4_equa);title('均衡后');saveas(gcf,'lena4_cont.bmp');
+>> woman_equa = histeq(woman);
+>> subplot(1,2,1);imshow(woman);title('源图像');subplot(1,2,2);imshow(woman_equa);title('均衡后');saveas(gcf,'woman_cont.bmp');
+>> woman1_equa = histeq(woman1);
+>> subplot(1,2,1);imshow(woman1);title('源图像');subplot(1,2,2);imshow(woman1_equa);title('均衡后');saveas(gcf,'woman1_cont.bmp');
+>> woman2_equa = histeq(woman2);
+>> subplot(1,2,1);imshow(woman2);title('源图像');subplot(1,2,2);imshow(woman2_equa);title('均衡后');saveas(gcf,'woman2_cont.bmp');
+>> 

@@ -1,0 +1,7 @@
+>> %3-4 直方图增强
+>> el_rein = adapthisteq(elain,'NumTiles',[7 7]);
+>> subplot(1,2,1);imshow(elain);title('源图像');subplot(1,2,2);imshow(el_rein);title('增强后');saveas(gcf,'el_rein.bmp');
+>> 
+>> le_rein = adapthisteq(lena,'NumTiles',[7 7]);
+>> subplot(1,2,1);imshow(lena);title('源图像');subplot(1,2,2);imshow(le_rein);title('增强后');saveas(gcf,'le_rein.bmp');
+>> 

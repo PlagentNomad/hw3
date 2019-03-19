@@ -1,0 +1,9 @@
+>> %3-5 图像分割
+>> thre_el = graythresh(elain);
+>> bi_el = im2bw(elain, thre_el);
+>> subplot(1,2,1),imshow(elain);title('源图像');subplot(1,2,2),imshow(bi_el);title('分割后');saveas(gcf,'el_segm.bmp');
+>> 
+>> thre_wo = graythresh(woman);
+>> bi_wo = im2bw(woman, thre_wo);
+>> subplot(1,2,1),imshow(woman);title('源图像');subplot(1,2,2),imshow(bi_wo);title('分割后');saveas(gcf,'wo_segm.bmp');
+>> 
